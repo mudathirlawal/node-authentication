@@ -1,0 +1,14 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js",
+    "start:dev": "nodemon node api.js"
+  },
+  "keywords": [],
+  "author": "Mudathir Lawal",
+  "license": "ISC"
+}
