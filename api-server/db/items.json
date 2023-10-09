@@ -1,4 +1,1 @@
-[ 
-    {"Name": "Bread", "Price": "1500.00", "Size": "Medium", "id": "1"}, 
-    {"Name": "Cake", "Price": "127,000.00", "Size": "Large", "id": "2"} 
-]
+[{"Name":"Bread","Price":"1,500.00","Size":"Medium","id":"1"},{"Name":"Youghurt","Price":"9,000.00","Size":"Large","id":"2"},{"Name":"Pizza","Price":"7500.00","Size":"Medium","id":"21"}]

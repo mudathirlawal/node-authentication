@@ -1,10 +1,13 @@
-const EXPRESS = require( 'express' );
+const FS = require( "fs" );
+const EXPRESS = require( "express" );
+const BODY_PARSER = require( "body-parser" );
 const ITEMS_ROUTE = require( "./routes/items.js" );
-
-const PORT = 3003;
+const USERS_ROUTE = require( "./users/users.js" );
+const PORT = 3005;
 const API = EXPRESS();
 
-API.use( "./db/items.json", ITEMS_ROUTE );
+API.use( "/items", ITEMS_ROUTE );
+API.use( "/items", USERS_ROUTE );
 
 let str = `
     API has started, and server is 
